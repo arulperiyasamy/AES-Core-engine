@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Gourav saini
-// 
-// Create Date:    11:09:17 07/25/2020 
-// Design Name: 
-// Module Name:    mixcolumn 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module mixcolumn(clk,data_in,data_out);
 input clk;
 input [127:0] data_in;
