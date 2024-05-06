@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Gourav saini
-// 
-// Create Date:    15:02:28 07/26/2020 
-// Design Name: 
-// Module Name:    aes_main 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
 module aes_main(clk,data_in,key,data_out);
 input clk;
 input [127:0] data_in,key;
